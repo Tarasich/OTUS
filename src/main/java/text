@@ -1,0 +1,12 @@
+enum MyEnum { CONST_ONE, CONST_TWO }
+
+class Test {
+        public static void main(String[] args) {
+            MyEnum e = MyEnum.CONST_ONE;
+
+            switch (e) {
+                case CONST_ONE: System.out.println(1); break;
+                case CONST_TWO: System.out.println(2); break;
+            }
+        }
+    }
